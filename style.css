@@ -1,0 +1,845 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hader-area {
+    padding: 25px 0px;
+    transition: all .5s;
+
+}
+
+.hader-menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.logo-area {}
+
+.hader-menu {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.hader-menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.hader-menu ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #3D3939;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.hader-menu ul li:hover a {
+    color: #D30919;
+}
+
+.hader-menu ul li.active a {
+    color: #D30919;
+}
+
+.singel-menu a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 30px;
+    background: #D30919;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all .5s;
+    box-shadow: 0 18px 50px rgba(41, 28, 165, 0.22);
+}
+
+.singel-menu a:hover {
+    background: #464358;
+    color: #fff;
+}
+
+.baner-bg {
+    background: url(images/baner.png) no-repeat left bottom;
+    background-size: cover;
+    color: #D30919;
+}
+
+.baner-btn a:hover {
+    background: #464358;
+    color: #fff;
+}
+
+.baner-btn a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #4839DF;
+    color: #fff;
+    border-radius: 110px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.baner-text h2 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.baner-text p {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.started-btn a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 17px 35px;
+    background: #D30919;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all .3s;
+}
+
+.started-btn a:hover {
+    background: #464358;
+    color: #fff;
+}
+
+.baner-area {
+    position: relative;
+    z-index: 1;
+    padding: 160px 0 240px 0;
+}
+
+.baner-area.volunteer {
+    background: url(images/baner3.png) no-repeat center center #2F2D38;
+    background-size: cover;
+    padding: 120px 0;
+    color: #fff;
+}
+
+.baner-area.volunteer .baner-text h2 {
+    margin: 0;
+}
+
+/*
+.baner-area:after{
+	position: absolute;
+	content: '';
+	width: 50%;
+	background: linear-gradient(rgba(127, 116, 240, 1), rgba(70, 56, 222, 1));
+	height: 100%;
+	left:100px;
+	top:0;
+	border-radius: 28px;
+	z-index: -1;
+
+}
+*/
+.baner-image img {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 55%;
+}
+
+.about-us {
+    margin-bottom: 140px;
+}
+
+.silider-area {
+    margin-bottom: 140px;
+}
+
+.section-text h5 {
+    font-size: 18px;
+    color: #007AFF;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.section-text h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #353434;
+}
+
+.about-text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: 'Nunito', sans-serif;
+    color: #555555;
+    margin-bottom: 30px;
+}
+
+.win-icnon img {
+    float: left;
+    margin-top: 10px;
+}
+
+.counter-silader span {
+    font-size: 30px;
+    line-height: 43px;
+    font-weight: 600;
+    color: #1A1A1A;
+}
+
+.counter-silader {
+    margin-left: 10px;
+    display: inline-block;
+
+}
+
+.counter-silader h6 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #1A1A1A;
+}
+
+.about-btn a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 30px 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 60px rgba(99, 99, 99, 0.09);
+    margin-bottom: 30px;
+    height: auto;
+}
+
+.about-btn span {
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 10px;
+    color: #565454;
+}
+
+.head-btn a {
+    margin-left: 140px;
+}
+
+.maine-section {
+    background: #FAFAFA;
+    padding: 110px 0px;
+    position: relative;
+}
+
+/*section center*/
+
+.maine-section.center {
+    text-align: center;
+    background-color: #2F2D3A;
+    padding: 80px 0;
+}
+
+.maine-section.center .section-text h5 {
+    font-size: 28px;
+    font-weight: normal;
+    width: 70%;
+    margin: 0 auto;
+    color: #FFD144;
+}
+
+.maine-section.center .section-text h2 {
+    color: #fff;
+    margin: 30px 0;
+}
+
+/* end */
+
+/*section left*/
+.maine-section.left {}
+
+.maine-section.left .section-text h1 {
+    font-size: 72px;
+    margin-bottom: 50px;
+    color: #D30919;
+}
+
+.maine-section.left .section-text h6 {
+    font-size: 24px;
+    line-height: 32px;
+    font-style: italic;
+}
+
+/*section bg*/
+.maine-section.bg {
+    background: url(images/baner2.png) no-repeat right bottom;
+    background-size: cover;
+    padding: 120px 0;
+    color: #fff;
+}
+
+.maine-section.bg .section-text h1 {
+    color: #FFD144;
+    margin-bottom: 50px;
+}
+
+.maine-section.bg .section-text h6 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: normal;
+}
+
+/*section right*/
+.maine-section.right {
+    background-color: #FFD144;
+}
+
+.maine-section.right .section-text h3 {
+    font-size: 32px;
+    padding: 40px 0;
+}
+
+.car-image {
+    text-align: right
+}
+
+.services-box {
+    margin-top: 50px;
+}
+
+.services-text p {
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #555555;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+
+}
+
+.services-text h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #1A1A1A;
+    line-height: 43px;
+    margin-top: 10px;
+    line-height: 28px;
+}
+
+.choose-area {
+    background: #FAFAFF;
+    position: relative;
+    padding: 0px 0;
+    margin-bottom: 120px;
+}
+
+.choose-img {
+    position: absolute;
+    top: 2px;
+    left: -130px;
+}
+
+.choose-area .card {
+    background: none;
+    border: none;
+}
+
+.card-header {
+    background: none;
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+    border: none;
+    padding: 0;
+    display: block;
+}
+
+.card-header button {
+    text-decoration: none;
+}
+
+.card-header button span {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    display: inline-block;
+    background: #007AFF;
+    border-radius: 2px;
+    padding: 10px 17px;
+    margin-right: 20px;
+}
+
+.card-header .collapsed span {
+    font-size: 16px;
+    font-weight: 500;
+    color: #007AFF;
+    display: inline-block;
+    background: #F8F8FD;
+    border-radius: 2px;
+    padding: 10px 17px;
+    margin-right: 20px;
+}
+
+.card-body p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #222222;
+    margin-bottom: 0;
+    margin-left: 60px;
+    width: 60%;
+}
+
+.card-header button p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1A1A1A;
+    display: inline-block;
+}
+
+.shoose-text {
+    margin-bottom: 25px;
+}
+
+#accordion {
+    margin-bottom: 100px;
+}
+
+.team-box {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.team-text h5 {
+    font-size: 14px;
+    color: #353434;
+    font-weight: 600;
+    margin-top: -10px;
+}
+
+.team-text h6 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #575656;
+}
+
+.team-box .team-image img {
+    transition: all .3s;
+}
+
+.team-box .team-image {
+    overflow: hidden;
+}
+
+.team-image {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.team-image:hover .overlay-content {
+    opacity: 1;
+    bottom: 20px;
+}
+
+.overlay-content {
+    position: absolute;
+    width: 134px;
+    margin: auto;
+    text-align: center;
+    padding: 10px 5px;
+    border-radius: 25px;
+    background: #ffffff;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    opacity: 0;
+    transition: .5s;
+}
+
+.overlay-content a {
+    margin: 0 6px;
+    color: #353434;
+}
+
+.our-team {
+    padding: 100px 0;
+}
+
+.our-team .section-text h2 {
+    color: #D30919
+}
+
+.our-team .section-text h4 {}
+
+.testimonial-text h4 {
+    color: #1A1A1A;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+
+.testimonial-icon i {
+    color: #FACA51;
+    margin-bottom: 25px;
+}
+
+.testimonial-peragrep p {
+    font-size: 16px;
+    color: #555555;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+}
+
+.testimonial-btn a:hover {
+    background: #343a40;
+}
+
+.testimonial-btn a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 35px;
+    background: #D30919;
+    color: #fff;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    transition: all .3s;
+    box-shadow: 0 18px 50px rgba(41, 28, 165, 0.22);
+}
+
+.cooper-text h5 {
+    color: #1A1A1A;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+}
+
+.cooper-text h6 {
+    color: #8D8D8D;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 10px;
+}
+
+.cooper-text p {
+    color: #1A1A1A;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    display: inline-block;
+}
+
+.cooper-box {
+    padding: 20px 23px;
+    background: #fff;
+    display: block;
+    width: 100%;
+    box-shadow: 0 0 30px rgba(180, 180, 180, 0.12);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.cooper-text i {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    color: #007AFF;
+    font-size: 20px;
+}
+
+.cooper-text {
+    position: relative;
+}
+
+.testimonial-area {
+    position: relative;
+    background: #FAFAFF;
+    padding: 130px 0px;
+    overflow: hidden;
+}
+
+.life-area {
+    background: #FAFAFF;
+}
+
+.maine-life {
+    background: url("images/footer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 80px;
+}
+
+.life-text h2 {
+    font-size: 38px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 46.5px;
+    width: 75%;
+}
+
+.life-text p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+}
+
+.life-btn a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 25px;
+    background: #fff;
+    color: #343434;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: all.3s;
+    border: 1px solid transparent;
+}
+
+.life-btn a:hover {
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.footer-logo {
+    margin-bottom: 25px;
+    color: #f5f5f5;
+}
+
+.footer-text p {
+    margin-bottom: 0;
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px
+}
+
+.email-text {
+    font-size: 15px;
+
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.email-text h5 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.footer-logo img {
+    margin-top: 76px;
+}
+
+.footer-logo h4 {
+    font-size: 22px;
+
+    line-height: 43px;
+    font-weight: 500;
+    margin-top: 60px;
+}
+
+.footer-area {
+    background: #2F2D3A;
+    padding: 0px 0px;
+    color: #ccc;
+}
+
+.footer-menu ul li {
+    list-style: none;
+}
+
+.footer-menu ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #ccc;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footer-from input {
+    padding: 12px 15px;
+    border: none;
+    background: #EEF0FF;
+    margin-bottom: 10px;
+}
+
+.footer-from input:focus {
+    outline: none;
+}
+
+.footer-from button {
+    padding: 10px 15px;
+    background: #D30919;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 18px 50px rgba(41, 28, 165, 0.22);
+    margin-bottom: 100px;
+}
+
+.footer-bottom-area {
+    border-top: 1px solid #403E4A;
+    padding: 15px 0;
+}
+
+.copy-tetx p a {
+    text-decoration: none;
+
+}
+
+.copy-tetx p {
+    font-size: 14px;
+
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.copy-icon a {
+    text-decoration: none;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #353434;
+    font-weight: 400;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.box-cooper {
+    margin-left: 0;
+}
+
+.testimonial-right-area {
+    width: 45%;
+    position: absolute;
+    right: 140px;
+    top: 40px;
+}
+
+.cooper-box {
+    float: left;
+    width: 370px;
+    margin: 1%;
+}
+
+.cooper-box-list {
+    margin-left: -1%;
+    margin-right: -1%;
+}
+
+.services-area {
+    overflow: hidden;
+}
+
+.copper-box-wrap.margin-left {
+    margin-left: 90px;
+}
+
+.card-body {
+    padding: 0 20px;
+}
+
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background: #555;
+    color: #fff;
+}
+
+.hader-area.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    background: #ffffff;
+    padding: 10px 0;
+}
+
+/* sidemenu */
+.sidemenu {
+
+    list-style: none;
+    text-align: left;
+
+}
+
+.sidemenu li {
+    padding: 10px 0;
+
+}
+
+.sidemenu a {
+    font-size: 20px;
+    color: #D30919;
+}
+
+/*maine-section volunteer*/
+
+.maine-section.volunteer h2 {
+    color: #D30919;
+    margin-bottom: 40px;
+}
+
+.maine-section.volunteer h4 {
+    margin-bottom: 20px;
+}
+
+.maine-section.volunteer p {
+    margin-bottom: 40px;
+
+}
+
+/* form */
+input,
+select,
+textarea {
+    height: 48px;
+    border-radius: 3px;
+    border: 1px solid #E8ECED;
+    background-color: #fff;
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 12px;
+
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+textarea {
+    height: 150px;
+    margin-bottom: 20px;
+}
